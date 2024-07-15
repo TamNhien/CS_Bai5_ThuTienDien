@@ -12,7 +12,7 @@ namespace CS_Bai5_ThuTienDien
         public string SoNha { get; set; }
         public string MaSoCongTo { get; set; }
 
-        public KhachHang(string hoTenChuHo, string soNha, string maoSoCongTo)
+        public KhachHang(string hoTenChuHo, string soNha, string maSoCongTo)
         {
             HoTenChuHo = hoTenChuHo;
             SoNha = soNha;
