@@ -16,12 +16,12 @@ namespace CS_Bai5_ThuTienDien
         {
             HoTenChuHo = hoTenChuHo;
             SoNha = soNha;
-            MaoSoCongTo = maoSoCongTo;
+            MaSoCongTo = maSoCongTo;
         }
 
         public override string ToString()
         {
-            return $"Ho Ten Chu Ho: {HoTenChuHo}, So Nha: {SoNha}, Ma So Cong To: {MaoSoCongTo}";
+            return $"Ho Ten Chu Ho: {HoTenChuHo}, So Nha: {SoNha}, Ma So Cong To: {MaSoCongTo}";
         }
     }
 }
